@@ -9,23 +9,26 @@ const experiences = [
     description: [
       "Completed intensive 6-month full-stack development bootcamp alongside first year college studies",
       "Developed multiple projects using MERN stack technologies",
-      "Collaborated with peers on team projects and presentations",
-      "Achieved excellent grades in both theoretical and practical assessments"
+      "Building Responsive Websites ",
+      "Learned and implemented modern web development practices",
+
+    //   "Collaborated with peers on team projects and presentations",
+    //   "Achieved excellent grades in both theoretical and practical assessments"
     ],
     tech: ["React", "Node.js", "MongoDB", "Express.js"]
   },
-  {
-    company: "College Projects",
-    role: "Student Developer",
-    duration: "First Year",
-    description: [
-      "Actively participated in college coding competitions and hackathons",
-      "Built responsive websites for college events",
-      "Learned and implemented modern web development practices",
-      "Balanced academic studies with practical coding projects"
-    ],
-    tech: ["HTML/CSS", "JavaScript", "Git", "Bootstrap"]
-  }
+  // {
+  //   company: "College Projects",
+  //   role: "Student Developer",
+  //   duration: "First Year",
+  //   description: [
+      // "Actively participated in college coding competitions and hackathons",
+      // "Built responsive websites for college events",
+  //     "Learned and implemented modern web development practices",
+  //     "Balanced academic studies with practical coding projects"
+  //   ],
+  //   tech: ["HTML/CSS", "JavaScript", "Git", "Bootstrap"]
+  // }
 ];
 
 const Experience = () => {

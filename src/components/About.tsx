@@ -15,7 +15,7 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="space-y-4">
             <p className="text-gray-400">
-              Hello! I'm [Your Name], an aspiring web developer currently in my first year of college. My journey in web development began with an intensive 6-month full-stack development course, where I discovered my passion for creating innovative digital solutions.
+              Hello! I'm Davish Chawla, an aspiring web developer currently in my first year of college. My journey in web development began with an intensive 6-month full-stack development course, where I discovered my passion for creating innovative digital solutions.
             </p>
             <p className="text-gray-400">
               During my course, I gained hands-on experience with modern web technologies and completed several projects that helped me understand the full development lifecycle. I'm particularly proud of balancing this technical training alongside my regular college studies.
@@ -48,7 +48,7 @@ const About = () => {
             <div className="relative w-full h-80">
               <div className="absolute inset-0 bg-[#64FFDA] rounded-lg opacity-20"></div>
               <img
-                src="your-image.jpg"
+                src="IMG-20250603-WA0035[1].jpg"
                 alt="Profile"
                 className="absolute inset-0 w-full h-full object-cover rounded-lg"
               />

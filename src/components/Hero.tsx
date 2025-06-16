@@ -30,7 +30,7 @@ const Hero = () => {
           transition={{ delay: 0.3 }}
           className="text-5xl md:text-7xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#64FFDA] to-[#4BC0C0]"
         >
-          Your Name
+          Davish Chawla
         </motion.h1>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -38,20 +38,22 @@ const Hero = () => {
           transition={{ delay: 0.4 }}
           className="text-3xl md:text-5xl text-gray-400 mb-8"
         >
-          <TypeAnimation
+          Full Stack Developer
+          {/* <TypeAnimation
             sequence={[
               'Full Stack Developer',
-              2000,
-              'Backend Engineer',
-              2000,
-              'Frontend Specialist',
-              2000,
-              'Cloud Architecture Expert',
-              2000,
+              // 2000,
+              
+              // 'Backend Engineer',
+              // 2000,
+              // 'Frontend Specialist',
+              // 2000,
+              // 'Cloud Architecture Expert',
+              // 2000,
             ]}
             wrapper="span"
-            repeat={Infinity}
-          />
+            repeat={Infinity} */}
+          {/* /> */}
         </motion.div>
         <motion.p
           initial={{ opacity: 0, y: 20 }}

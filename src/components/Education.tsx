@@ -4,14 +4,14 @@ import { motion } from 'framer-motion';
 const education = [
   {
     degree: "Bachelor's Degree - First Year",
-    school: "Your College Name",
-    duration: "2023 - Present",
+    school: "Government Bikram College Of Commerce",
+    duration: "2024 - Present",
     description: "Currently pursuing my bachelor's degree while developing my programming skills",
     achievements: "Maintaining good academic standing while completing additional technical courses"
   },
   {
     degree: "Full Stack Development Course",
-    school: "Course Provider Name",
+    school: " Chandigarh Academy Of Digital Learning",
     duration: "6 Months",
     description: "Intensive full-stack web development training program",
     achievements: "Completed multiple projects and learned modern web technologies"
@@ -21,16 +21,18 @@ const education = [
 const certifications = [
   {
     name: "Full Stack Web Development",
-    issuer: "Course Provider Name",
-    date: "2023",
-    link: "#"
+    issuer: "Chandigarh Academy Of Digital Learning",
+    date: "2024",
+    // link: "#"
+    // img: "",
+    href:"Web Developement Certificate.pdf"
   },
-  {
-    name: "JavaScript Fundamentals",
-    issuer: "freeCodeCamp",
-    date: "2023",
-    link: "#"
-  }
+  // {
+  //   name: "JavaScript Fundamentals",
+  //   issuer: "freeCodeCamp",
+  //   date: "2023",
+  //   link: "#"
+  // }
 ];
 
 const Education = () => {
@@ -94,7 +96,7 @@ const Education = () => {
               {certifications.map((cert, index) => (
                 <motion.a
                   key={index}
-                  href={cert.link}
+                  href={cert.href}
                   target="_blank"
                   rel="noopener noreferrer"
                   variants={itemVariants}

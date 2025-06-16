@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import  { useState, useEffect } from 'react';
+import { AnimatePresence ,motion } from 'framer-motion';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -60,11 +60,11 @@ const Navbar = () => {
           <div className="relative w-12 h-12">
             <div className="absolute inset-0 bg-gradient-to-r from-[#64FFDA] to-[#4BC0C0] rounded-lg transform rotate-3 transition-transform group-hover:rotate-6" />
             <div className="absolute inset-0 bg-[#0A192F] rounded-lg transform -rotate-3 transition-transform group-hover:-rotate-6 flex items-center justify-center">
-              <span className="text-[#64FFDA] font-bold text-xl">YD</span>
+              <span className="text-[#64FFDA] font-bold text-xl">𝒟𝒞</span>
             </div>
           </div>
           <span className="text-[#64FFDA] font-bold text-xl hidden sm:block">
-            Your Dev
+            Davish Chawla
           </span>
         </motion.a>
 
@@ -93,7 +93,7 @@ const Navbar = () => {
             </motion.a>
           ))}
           <motion.a
-            href="/resume.pdf"
+            href="Davish-Chawla-CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 rounded-lg bg-[#64FFDA]/10 text-[#64FFDA] border border-[#64FFDA] hover:bg-[#64FFDA]/20 transition-all duration-300"
