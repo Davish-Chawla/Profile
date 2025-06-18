@@ -11,7 +11,7 @@ const Footer = () => {
           transition={{ duration: 0.8 }}
         >
           <p className="text-gray-400 text-center md:text-left">
-            © 2024 Your Name. All rights reserved.
+            © 2025 Davish Chawla. All rights reserved.
           </p>
         </motion.div>
         <motion.div
@@ -21,7 +21,7 @@ const Footer = () => {
           className="flex space-x-6 mt-4 md:mt-0"
         >
           <a
-            href="https://github.com"
+            href="https://github.com/Davish-Chawla"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-[#64FFDA] transition-colors"
@@ -29,7 +29,7 @@ const Footer = () => {
             GitHub
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/davish-chawla-212659258/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-[#64FFDA] transition-colors"
@@ -37,7 +37,7 @@ const Footer = () => {
             LinkedIn
           </a>
           <a
-            href="https://twitter.com"
+            href="https://x.com/DavishC12"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-[#64FFDA] transition-colors"
