@@ -5,7 +5,7 @@ const projects = [
   {
     title: 'Foodie Hub',
     description: 'Order meals easily from local restaurants, customize dishes, track delivery in real time, and pay securely—all with a fast and responsive React + Node.js app',
-    tech: ['React', 'Node.js', 'MongoDB'],
+    // tech: ['React', 'Node.js', 'MongoDB'],
     image: '/Foodie.png',
     link: 'https://foodie-eo8h.vercel.app/',
   },
@@ -13,18 +13,18 @@ const projects = [
     {
     title: 'Todo List',
     description: 'A React-built task manager with add/delete/edit tasks, mark as complete, due dates, categories, reorderable lists, and responsive design.',
-    tech: ['React', 'Node.js', 'MongoDB'],
+    // tech: ['React', 'Node.js', 'MongoDB'],
     image: '/Todo.png',
     link: 'https://todo-list-gold-pi.vercel.app/',
   },
 
-    {
-    title: 'Project 3',
-    description: 'Description of project 3',
-    tech: ['React', 'Node.js', 'MongoDB'],
-    image: 'project1.jpg',
-    link: '#',
-  },
+  //   {
+  //   title: 'Project 3',
+  //   description: 'Description of project 3',
+  //   tech: ['React', 'Node.js', 'MongoDB'],
+  //   image: 'project1.jpg',
+  //   link: '#',
+  // },
 ];
 
 const Projects = () => {
