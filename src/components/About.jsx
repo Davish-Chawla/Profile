@@ -48,7 +48,7 @@ const About = () => {
             <div className="relative w-full h-80">
               <div className="absolute inset-0 bg-[#64FFDA] rounded-lg opacity-20"></div>
               <img
-                src="IMG-20250603-WA0035[1].jpg"
+                src="https://images.unsplash.com/photo-1638295403454-a1356f7dd340?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29ya2luZyUyMGNvZGVyJTIwYW5pbWF0ZWR8ZW58MHx8MHx8fDA%3D"
                 alt="Profile"
                 className="absolute inset-0 w-full h-full object-cover rounded-lg"
               />

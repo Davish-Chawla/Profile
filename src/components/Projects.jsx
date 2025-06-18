@@ -3,19 +3,19 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
-    title: 'Project 1',
-    description: 'Description of project 1',
+    title: 'Foodie Hub',
+    description: 'Order meals easily from local restaurants, customize dishes, track delivery in real time, and pay securely—all with a fast and responsive React + Node.js app',
     tech: ['React', 'Node.js', 'MongoDB'],
-    image: 'project1.jpg',
-    link: '#',
+    image: '/Foodie.png',
+    link: 'https://foodie-eo8h.vercel.app/',
   },
 
     {
-    title: 'Project 2',
-    description: 'Description of project 2',
+    title: 'Todo List',
+    description: 'A React-built task manager with add/delete/edit tasks, mark as complete, due dates, categories, reorderable lists, and responsive design.',
     tech: ['React', 'Node.js', 'MongoDB'],
-    image: 'project1.jpg',
-    link: '#',
+    image: '/Todo.png',
+    link: 'https://todo-list-gold-pi.vercel.app/',
   },
 
     {
@@ -46,6 +46,9 @@ const Projects = () => {
       transition: { duration: 0.5 }
     }
   };
+  const openProject = (url) => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
 
   return (
     <section className="py-20 px-8" id="projects">
@@ -71,6 +74,7 @@ const Projects = () => {
                 boxShadow: "0 10px 20px rgba(100, 255, 218, 0.1)"
               }}
               className="bg-gray-800 rounded-lg overflow-hidden transform-gpu"
+               onClick={() => openProject(project.link)}
             >
               <motion.img
                 whileHover={{ scale: 1.05 }}
