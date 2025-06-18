@@ -9,7 +9,22 @@ const projects = [
     image: 'project1.jpg',
     link: '#',
   },
-  // Add more projects
+
+    {
+    title: 'Project 2',
+    description: 'Description of project 2',
+    tech: ['React', 'Node.js', 'MongoDB'],
+    image: 'project1.jpg',
+    link: '#',
+  },
+
+    {
+    title: 'Project 3',
+    description: 'Description of project 3',
+    tech: ['React', 'Node.js', 'MongoDB'],
+    image: 'project1.jpg',
+    link: '#',
+  },
 ];
 
 const Projects = () => {
