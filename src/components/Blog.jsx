@@ -10,14 +10,14 @@ const blogs = [
     readTime: "10 min read",
     link: "#"
   },
-  {
-    title: "Understanding TypeScript Generic Types",
-    date: "Sep 2023",
-    description: "Deep dive into TypeScript generics with practical examples and real-world use cases.",
-    tags: ["TypeScript", "Programming"],
-    readTime: "8 min read",
+    {
+    title: "Mastering Responsive Design with Tailwind CSS",
+    date: "June 2025",
+    description: "Learn how to create fully responsive web designs quickly using the utility-first approach of Tailwind CSS.",
+    tags: ["Tailwind CSS", "Responsive Design", "Frontend"],
+    readTime: "7 min read",
     link: "#"
-  }
+  },
 ];
 
 const Blog = () => {
