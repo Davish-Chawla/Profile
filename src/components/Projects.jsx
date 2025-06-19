@@ -5,7 +5,7 @@ const projects = [
   {
     title: 'Foodie Hub',
     description: 'Order meals easily from local restaurants, customize dishes, track delivery in real time, and pay securely—all with a fast and responsive React + Node.js app',
-    // tech: ['React', 'Node.js', 'MongoDB'],
+    tech: ['React', 'Node.js', 'MongoDB'],
     image: '/Foodie.png',
     link: 'https://foodie-eo8h.vercel.app/',
   },
@@ -13,7 +13,7 @@ const projects = [
     {
     title: 'Todo List',
     description: 'A React-built task manager with add/delete/edit tasks, mark as complete, due dates, categories, reorderable lists, and responsive design.',
-    // tech: ['React', 'Node.js', 'MongoDB'],
+    tech: ['React', 'Node.js', 'MongoDB'],
     image: '/Todo.png',
     link: 'https://todo-list-gold-pi.vercel.app/',
   },
@@ -64,7 +64,7 @@ const Projects = () => {
         >
           Featured Projects
         </motion.h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {projects.map((project, index) => (
             <motion.div
               key={index}
