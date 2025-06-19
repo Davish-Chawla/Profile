@@ -25,7 +25,7 @@ const certifications = [
     date: "2024",
     // link: "#"
     // img: "",
-    href:"Web Developement Certificate.pdf"
+    href:"/Web Developement Certificate.pdf"
   },
   // {
   //   name: "JavaScript Fundamentals",

@@ -93,7 +93,7 @@ const Navbar = () => {
             </motion.a>
           ))}
           <motion.a
-            href="Davish-Chawla-CV.pdf"
+            href="/Davish-Chawla-CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 rounded-lg bg-[#64FFDA]/10 text-[#64FFDA] border border-[#64FFDA] hover:bg-[#64FFDA]/20 transition-all duration-300"
