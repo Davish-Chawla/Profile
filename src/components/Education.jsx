@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const education = [
   {
-    degree: "Bachelor's Degree - First Year",
+    degree: "Bachelor's Degree - Second Year",
     school: "Government Bikram College Of Commerce",
     duration: "2024 - Present",
     description: "Currently pursuing my bachelor's degree while developing my programming skills",
